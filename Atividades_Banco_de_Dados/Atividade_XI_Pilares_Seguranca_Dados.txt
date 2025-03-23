@@ -1,15 +1,27 @@
 Instruções do projeto
-Após uma varredura rápida no sistema de banco de dados de uma empresa de vendas, identificamos a necessidade de melhorar a segurança dessas informações. Por isso, será necessário desenvolver um novo banco para armazenar os dados mais importantes, como detalhes dos clientes, valores faturados diariamente e informações sobre os produtos, além de outros. Sendo assim, explique quais são os pilares da segurança de dados que devem ser seguidos para que o novo banco seja bem projetado e funcione corretamente.
+Após uma varredura rápida no sistema de banco de dados de uma empresa de vendas, identificamos a
+necessidade de melhorar a segurança dessas informações. Por isso, será necessário desenvolver um novo 
+banco para armazenar os dados mais importantes, como detalhes dos clientes, valores faturados 
+diariamente e informações sobre os produtos, além de outros. Sendo assim, explique quais são os pilares 
+da segurança de dados que devem ser seguidos para que o novo banco seja bem projetado e funcione 
+corretamente.
 
 Resposta:
 Os pilares da segurança de dados a serem seguidos incluem:
 
-Confidencialidade: Garantir que apenas usuários autorizados possam acessar as informações. Técnicas como criptografia e controle de acesso ajudam a evitar vazamentos de dados.
+Confidencialidade: Garantir que apenas usuários autorizados possam acessar as informações. Técnicas como
+ criptografia e controle de acesso ajudam a evitar vazamentos de dados.
 
-Integridade: Assegurar que os dados não sejam alterados de forma não autorizada. Mecanismos como checksums, logs de auditoria e controle de versões ajudam a detectar e prevenir modificações indevidas.
+Integridade: Assegurar que os dados não sejam alterados de forma não autorizada. Mecanismos como 
+checksums, logs de auditoria e controle de versões ajudam a detectar e prevenir modificações indevidas.
 
-Disponibilidade: Assegurar que os dados estejam acessíveis aos usuários autorizados sempre que necessário. A implementação de backups, redundância e planos de recuperação de desastres garante que o sistema funcione sem interrupções.
+Disponibilidade: Assegurar que os dados estejam acessíveis aos usuários autorizados sempre que 
+necessário. A implementação de backups, redundância e planos de recuperação de desastres garante que o
+ sistema funcione sem interrupções.
 
-Autenticidade: Verificar a veracidade da origem dos dados e a identidade dos usuários que os acessam. A implementação de métodos de autenticação robustos e tokens digitais contribui para a confiabilidade do sistema.
+Autenticidade: Verificar a veracidade da origem dos dados e a identidade dos usuários que os acessam. A
+ implementação de métodos de autenticação robustos e tokens digitais contribui para a confiabilidade do
+  sistema.
 
-Não-repúdio: Garantir que uma transação ou ação não possa ser negada posteriormente, atribuindo a responsabilidade de forma clara e por meio de logs ou assinaturas digitais.
+Não-repúdio: Garantir que uma transação ou ação não possa ser negada posteriormente, atribuindo a 
+responsabilidade de forma clara e por meio de logs ou assinaturas digitais.
